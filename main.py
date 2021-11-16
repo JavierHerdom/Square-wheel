@@ -86,15 +86,15 @@ def generar_pagina():
     # Generacion de la pagina web con Streamlit
     st.set_page_config(
         page_title="AG - Square wheel",
-        page_icon="🍎"
+        page_icon="🔮"
     )
 
     st.write("# Genetic Algorithm - Square wheel.")
     st.markdown('by Javier Hernandez & Javier Valverde', unsafe_allow_html=True)
 
-    with st.expander("🧙 Click here to learn more about this project 🔮"):
+    with st.expander("🧙 Click here to learn more about this project 🧙"):
         st.markdown("""
-            <p>Falta la intro del informe en ingles.</p>
+            <p>For this work we will present the design of a square wheel with reinforcements which must make a revolution through a rocky road, in this case the square wheel will be a square of 7 x 7, and the road through which it must cross will be a rectangle that will have dimensions of 7 x 35, this road will have in its interior the so-called "stones" which will break the wheel, unless they run into the reinforced places of the wheel, which will not do any damage to them. Taking the above into account, this project seeks to use the least amount of reinforcements possible in the wheel, taking into account that it must cross this rocky road, this in order to save money and minimize material losses.</p>
         """, unsafe_allow_html=True)
 
     st.button("Start simulation", on_click=startProgram)

@@ -94,11 +94,7 @@ def generar_pagina():
 
     with st.expander("🧙 Click here to learn more about this project 🔮"):
         st.markdown("""
-            <p>A Genetic Algorithm (GA) may be attributed as a method for optimizing the search tool for solutions to problems hard to model algorithmically, 
-            commonly used for optimization and search problems. This methodology is inspired on our understanding of the principles of natural selection 
-            with analogous abstractions for chromosome generation, how fit each solution is to the problem, natural parent selection and gene crossover 
-            and mutation for the offspring. The problem at hand focuses on how many people can safely fit on a room, following an abstraction of the 
-            commonly used guidelines for social distancing.</p>
+            <p>Falta la intro del informe en ingles.</p>
         """, unsafe_allow_html=True)
 
     st.button("Start simulation", on_click=startProgram)

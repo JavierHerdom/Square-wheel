@@ -69,7 +69,7 @@ def generateWheelMarkup(wheelMatrix):
                 cellContent = 3
             elif roomCell == "":
                 cellTypeClass = "roadBackground"
-                cellContent = 3
+                cellContent = ""
             elif roomCell == "X":
                 cellTypeClass = "spike"
                 cellContent = "X"

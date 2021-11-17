@@ -294,11 +294,11 @@ def fitness_func(solution, parametro2):
 
 def startProgram():
     num_generations = 500 # Number of generations.
-    num_parents_mating = 9 # Number of solutions to be selected as parents in the mating pool.
+    num_parents_mating = 15 # Number of solutions to be selected as parents in the mating pool.
     sol_per_pop = 49 # Number of solutions in the population.
     num_genes = 49
     parent_selection_type = "tournament" # Type of parent selection.
-    keep_parents = 5 # Number of parents to keep in the next population. -1 means keep all parents and 0 means keep nothing.
+    keep_parents = 3 # Number of parents to keep in the next population. -1 means keep all parents and 0 means keep nothing.
     crossover_type = "single_point" # Type of the crossover operator.
     # Parameters of the mutation operation.
     mutation_type = "random" # Type of the mutation operator.
